@@ -3,3 +3,62 @@ body {
     background-color: pink;
     text-align: center;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans' , sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    padding: 0 100px 0 100px;
+}
+
+nav ul, .main-info-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-info-section{
+    height: calc(100vh - 81.6px);
+}
+
+.text{ 
+    margin-top: 120px;
+}
+
+.text h1{
+    color: #fff;
+    font-size: 3rem;
+    cursor: context-menu;
+}
+
+.text span{
+    display: inline-block;
+}
+
+span:hover{
+    color: black;
+    transition: all .5s;
+}
+
+span.name{
+    color: seagreen;
+}
+
+span.m-left{
+    margin-left: -10px;
+}
+
+.text p {
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-size: 0.8rem;
+}
+
